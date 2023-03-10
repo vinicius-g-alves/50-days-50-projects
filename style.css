@@ -1,0 +1,46 @@
+h1,
+h2 {
+  text-align: center;
+  font: bold 50pt "Ubuntu";
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: space-around;
+}
+
+img {
+  width: 50%;
+  height: 580px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out;
+}
+
+.second-cards-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.item {
+  width: 10%;
+  height: 580px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out;
+}
+
+img:hover {
+  width: 100%;
+}
