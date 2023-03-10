@@ -5,8 +5,10 @@ h2 {
 }
 
 section {
+  margin: 20px;
+  padding: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(3, 2fr);
   row-gap: 50px;
   column-gap: 50px;
   justify-content: space-around;
@@ -21,30 +23,6 @@ img {
   cursor: pointer;
   transition: width 0.5s ease-in-out;
 }
-
-img:hover {
-  width: 100%;
-}
-
-@keyframes float {
-  0% {
-    transform: translate(0px);
-  }
-  50% {
-    transform: translate(-50px);
-  }
-  100% {
-    transform: translate(50px);
-  }
-}
-
-img:hover:last-child {
-  text-align: center;
-  transform: translate(0px);
-  animation: float 5s ease-in-out infinite;
-}
-
-/* Second group */
 
 .second-cards-group {
   display: flex;
@@ -65,22 +43,4 @@ img:hover:last-child {
 
 img:hover {
   width: 100%;
-}
-
-@keyframes float {
-  0% {
-    transform: translate(0px);
-  }
-  50% {
-    transform: translate(-50px);
-  }
-  100% {
-    transform: translate(50px);
-  }
-}
-
-img:hover:last-child {
-  text-align: center;
-  transform: translate(0px);
-  animation: float 5s ease-in-out infinite;
 }
